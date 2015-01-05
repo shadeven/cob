@@ -6,7 +6,7 @@ public class SingletonClass {
 	
 	private SingletonClass() {}
 	
-	public SingletonClass getInstance() {
+	public static SingletonClass getInstance() {
 		return INSTANCE;
 	}
 }
