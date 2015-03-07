@@ -21,8 +21,8 @@ public class CloneManagerTest {
 		// Assert
 		assertFalse("Error: the clone object and original object should be two differnt objects.",
 				applicant.equals(clonedApplicant));
-		assertFalse("Error", applicant.getPreferences().get(0).equals(clonedApplicant.getPreferences().get(0)));
-		assertFalse("Error", applicant.getQualifications().get(0).equals(clonedApplicant.getQualifications().get(0)));
+		assertFalse("Error!", applicant.getPreferences().get(0).equals(clonedApplicant.getPreferences().get(0)));
+		assertFalse("Error!", applicant.getQualifications().get(0).equals(clonedApplicant.getQualifications().get(0)));
 	}
 
 	@Test
