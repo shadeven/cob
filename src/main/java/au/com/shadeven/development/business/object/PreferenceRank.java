@@ -1,16 +1,22 @@
 /**
  * 
  */
-package au.com.shadeven.development.template;
+package au.com.shadeven.development.business.object;
 
+import java.io.Serializable;
 import java.math.BigDecimal;
 
 /**
  * @author Steven
  *
  */
-public final class PreferenceRank {
+public final class PreferenceRank implements Serializable {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -8553980409123767376L;
+	
 	private BigDecimal rank;
 
 	/**
