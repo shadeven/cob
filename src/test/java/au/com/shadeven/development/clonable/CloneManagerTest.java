@@ -1,6 +1,11 @@
 package au.com.shadeven.development.clonable;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
+
+import java.math.BigDecimal;
+import java.util.Arrays;
+import java.util.Date;
 
 import org.junit.Test;
 
@@ -41,8 +46,12 @@ public class CloneManagerTest {
 	}
 
 	private Applicant setup() {
-		Preference preference = new Preference();
-		Qualification qualification = new Qualification();
+		Preference preference = new Preference();	
+		Qualification qualification = new Qualification.QualificationBuilder()
+				.name("Bachelor of arts").startDate(new Date())
+				.scores(Arrays.asList(BigDecimal.ZERO, BigDecimal.ONE)).build();
+
+		qualification.getScores().add(BigDecimal.TEN);
 		
 		Applicant applicant = new Applicant();
 		applicant.addPreference(preference);
