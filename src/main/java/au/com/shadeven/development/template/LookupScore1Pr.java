@@ -2,7 +2,7 @@ package au.com.shadeven.development.template;
 
 import java.math.BigDecimal;
 
-import au.com.shadeven.development.business.object.PreferenceRank;
+import au.com.shadeven.development.model.PreferenceRank;
 
 /**
  * @author Steven

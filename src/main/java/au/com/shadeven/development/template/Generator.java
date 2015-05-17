@@ -1,8 +1,8 @@
 package au.com.shadeven.development.template;
 
-import au.com.shadeven.development.business.object.Preference;
-import au.com.shadeven.development.business.object.PreferenceRank;
-import au.com.shadeven.development.business.object.Qualification;
+import au.com.shadeven.development.model.Preference;
+import au.com.shadeven.development.model.PreferenceRank;
+import au.com.shadeven.development.model.Qualification;
 
 public interface Generator {
 

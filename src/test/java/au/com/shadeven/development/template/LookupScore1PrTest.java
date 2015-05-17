@@ -4,7 +4,7 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-import au.com.shadeven.development.business.object.PreferenceRank;
+import au.com.shadeven.development.model.PreferenceRank;
 
 public class LookupScore1PrTest {
 

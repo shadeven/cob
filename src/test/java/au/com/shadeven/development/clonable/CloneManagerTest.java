@@ -9,9 +9,9 @@ import java.util.Date;
 
 import org.junit.Test;
 
-import au.com.shadeven.development.business.object.Applicant;
-import au.com.shadeven.development.business.object.Preference;
-import au.com.shadeven.development.business.object.Qualification;
+import au.com.shadeven.development.model.Applicant;
+import au.com.shadeven.development.model.Preference;
+import au.com.shadeven.development.model.Qualification;
 
 public class CloneManagerTest {
 

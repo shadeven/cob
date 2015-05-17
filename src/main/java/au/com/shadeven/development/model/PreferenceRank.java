@@ -1,7 +1,7 @@
 /**
  * 
  */
-package au.com.shadeven.development.business.object;
+package au.com.shadeven.development.model;
 
 import java.io.Serializable;
 import java.math.BigDecimal;
