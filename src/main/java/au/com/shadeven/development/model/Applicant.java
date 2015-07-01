@@ -11,7 +11,7 @@ public class Applicant implements Serializable {
 	 */
 	private static final long serialVersionUID = -8161155948703391553L;
 
-	private List<Preference> preferences = new ArrayList<Preference>();
+	private List<Preference> pref = new ArrayList<Preference>();
 
 	private List<Qualification> qualifications = new ArrayList<Qualification>();
 	
@@ -21,12 +21,12 @@ public class Applicant implements Serializable {
 	 * @return the preferences
 	 */
 	public List<Preference> getPreferences() {
-		return preferences;
+		return pref;
 	}
 
 	public void addPreference(Preference preference) {
 		if (preference != null) {
-			preferences.add(preference);
+			pref.add(preference);
 		}
 	}
 	
@@ -47,7 +47,7 @@ public class Applicant implements Serializable {
 	 * @param preferences the preferences to set
 	 */
 	public void setPreferences(List<Preference> preferences) {
-		this.preferences = preferences;
+		this.pref = preferences;
 	}
 
 	/**
