@@ -4,7 +4,7 @@ import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
-public final class Applicant implements Serializable {
+public class Applicant implements Serializable {
 
 	/**
 	 * 
