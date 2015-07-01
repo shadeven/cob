@@ -1,10 +1,9 @@
 package au.com.shadeven.development.model;
 
-import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Applicant implements Serializable {
+public class Applicant {
 
 	/**
 	 * 
