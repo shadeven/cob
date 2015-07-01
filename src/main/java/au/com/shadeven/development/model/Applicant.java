@@ -24,9 +24,9 @@ public final class Applicant implements Serializable {
 		return preferences;
 	}
 
-	public void addPreference(Preference pref) {
-		if (pref != null) {
-			preferences.add(pref);
+	public void addPreference(Preference preference) {
+		if (preference != null) {
+			preferences.add(preference);
 		}
 	}
 	
