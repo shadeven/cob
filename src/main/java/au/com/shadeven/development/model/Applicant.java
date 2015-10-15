@@ -10,6 +10,8 @@ public class Applicant {
 	 */
 	private static final long serialVersionUID = -8161155948703391553L;
 
+	private String id;
+
 	private List<Preference> pref = new ArrayList<Preference>();
 
 	private List<Qualification> qualifications = new ArrayList<Qualification>();
@@ -55,5 +57,12 @@ public class Applicant {
 	public void setQualifications(List<Qualification> qualifications) {
 		this.qualifications = qualifications;
 	}
-	
+
+	public String getId() {
+		return id;
+	}
+
+	public void setId(String id) {
+		this.id = id;
+	}
 }

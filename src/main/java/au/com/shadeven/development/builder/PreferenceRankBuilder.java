@@ -1,8 +1,6 @@
 package au.com.shadeven.development.builder;
 
-import org.apache.commons.lang3.builder.Builder;
-
-public final class PreferenceRankBuilder implements Builder<String> {
+public final class PreferenceRankBuilder  {
 
 	private String name;
 	
