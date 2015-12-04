@@ -1,21 +1,16 @@
 package au.com.shadeven.development.template;
 
 
-import static org.hamcrest.CoreMatchers.equalTo;
-import static org.hamcrest.CoreMatchers.hasItem;
-import static org.hamcrest.CoreMatchers.not;
-import static org.hamcrest.CoreMatchers.notNullValue;
-import static org.junit.Assert.assertThat;
+import au.com.shadeven.development.model.PreferenceRank;
+import org.apache.commons.lang3.SerializationUtils;
+import org.apache.commons.lang3.math.NumberUtils;
+import org.junit.Test;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import org.apache.commons.lang3.SerializationUtils;
-import org.apache.commons.lang3.math.NumberUtils;
-import org.hamcrest.CoreMatchers;
-import org.junit.Test;
-
-import au.com.shadeven.development.model.PreferenceRank;
+import static org.hamcrest.CoreMatchers.*;
+import static org.junit.Assert.assertThat;
 
 public class LookupScore1PrTest {
 
